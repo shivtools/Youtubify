@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta name = "viewport" content="width=device-width, initial-scale=1.0" />
+	<title> Youtubify </title>
+	<link rel="stylesheet" href="./css/stylesheet.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+	<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/annyang/2.0.0/annyang.min.js"></script>
+
+</head>
+<body>
+
+<div class="jumbotron">
+	<h1>Find your song on Youtube using your voice!</h1>
+	<p> Tired of going to the youtube homepage to search for songs?
+		Press 'Speak!' and go ahead and say 'play me' followed by your song name. You'll get a Youtube video for the hottest video currently on Youtube for that song.</p>
+
+  	<button type="button" id="pressButton" class="btn btn-primary">Speak!</button>
+  	<br/>
+  	<h3 id ="askedFor">You asked for <span class="label label-default" id="artistName"> *song name* </span></h3>
+  	</br>
+  	<br/>
+  	<iframe id="player" type="text/html" width="640" height="390"
+  		src=""
+  			frameborder="0"></iframe>
+</div>
+<h4> Made using some sweet data from Youtube's API and annyang's Speech recognition library!</h4> 
+</body>
+<script src="script.js"></script>
+<script src="https://apis.google.com/js/client.js?onload=OnLoadCallback"></script>
+
+
+</html>
