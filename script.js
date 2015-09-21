@@ -39,7 +39,7 @@ function searchTrack(query){
 
 function OnLoadCallback(){
 	gapi.client.load('youtube', 'v3');
-	gapi.client.setApiKey('AIzaSyD4dd9D7Pa8Bl40MkigCoV1kn5Uy88uaFI');
+	gapi.client.setApiKey(''); //add your own youtube API key over here
 	console.log("loaded api properly");
 }
 
