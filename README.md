@@ -6,6 +6,8 @@ Author: Shiv Toolsidass
 
 ##Installation
 
+In order to use this app, you will need to get a Youtube API key. On line 42 of `script.js` go ahead and add your secret key!
+
 Assuming you have node and npm nstalled on your machine, make use of these commands in npm first:
 `npm install connect`
 `npm install serve-static`
