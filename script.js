@@ -14,6 +14,7 @@ document.getElementById('pressButton').onclick = function(){
 	loadAnnyang();
 }
 
+
 function print(term){
 	document.getElementById('artistName').innerHTML = term;
 }
@@ -39,7 +40,7 @@ function searchTrack(query){
 
 function OnLoadCallback(){
 	gapi.client.load('youtube', 'v3');
-	gapi.client.setApiKey(''); //add your own youtube API key over here
+    	gapi.client.setApiKey('AIzaSyCR5In4DZaTP6IEZQ0r1JceuvluJRzQNLE');
 	console.log("loaded api properly");
 }
 

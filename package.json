@@ -1,0 +1,36 @@
+{
+  "name": "youtubifyy",
+  "version": "1.0.0",
+  "description": "Use your voice to search up videos on Youtube",
+  "main": "server.js",
+  "dependencies": {
+    "httpdispatcher": "^0.4.0",
+    "connect": "^3.4.0",
+    "serve-static": "^1.10.0"
+  },
+  "engines": {
+ 	"node": "4.1.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shivtools/Youtubify.git"
+  },
+  "keywords": [
+    "search",
+    "youtube",
+    "voice",
+    "voice",
+    "recognition"
+  ],
+  "author": "Shiv Toolsidass",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/shivtools/Youtubify/issues"
+  },
+  "homepage": "https://github.com/shivtools/Youtubify#readme"
+}
